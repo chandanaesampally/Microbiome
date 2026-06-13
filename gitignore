@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Development scripts (NOT needed for deployment)
+1_catalog.py
+2_patient_manifold.py
+3_target_matrix.py
+4_architecture.py
+5_dataset_check.py
+6_evaluation.py
+7_trainer.py
+9_final.py
+10_audit.py
+10_paper_figures.py
+8_app.py
+8_app_updated.py
+image.py
+image2.py
+test.py
+new_test.py
+prototype.py
+exp.txt
+
+# Data files not needed at runtime
+resource/patient_manifold_v2.csv
+resource/food_target_matrix.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
